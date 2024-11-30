@@ -21,4 +21,6 @@ Future plans
 ==============
 Support for formatting Arabic numbers. 
 
+Presets so you can test the tool out without actually knowing Chinese. I wanted to include Article 1 of the Universal Declaration of Human Rights, the first sura of the Quran (both of these examples are used on the [Wikipedia](https://en.wikipedia.org/wiki/Xiao%27erjing#Example) page on this script) and a line from the [Han Kitab](https://en.wikipedia.org/wiki/Han_Kitab) (汉克塔布, هان کتاب), which is a unique text that blends Confucian and Islamic thought. 
+
 I also intend on hosting my own instance of this webapp on my personal website soon. 
