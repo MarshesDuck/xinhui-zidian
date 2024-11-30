@@ -2,9 +2,14 @@ from flask import Flask, request, render_template_string
 from pypinyin import pinyin, lazy_pinyin, Style
 from word_mapping import phonetic_dict
 from punctuation_mapping import punctuation_mapping
+from eastern_arabic_numbers import western_to_eastern_numerals
 
 # Initialize Flask application
 app = Flask(__name__)
+
+# Function to convert Western Arabic numerals to Eastern Arabic numerals
+def convert_number_to_eastern(number_str):
+    return ''.join(western_to_eastern_numerals[digit] for digit in number_str if digit in western_to_eastern_numerals)
 
 # Function to map Lazy Pinyin (without tone markings) to phonetic dictionary
 def map_lazy_pinyin_to_phonetic(lazy_pinyin_result):
@@ -27,6 +32,10 @@ def map_lazy_pinyin_to_phonetic(lazy_pinyin_result):
             phonetic_result.append(punctuation_mapping[letter])
         else:
             phonetic_result.append(syllable)
+
+        # Now replace any Western Arabic numerals in the phonetic_result with Eastern Arabic numerals
+    phonetic_result = [convert_number_to_eastern(syllable) if any(
+        digit in western_to_eastern_numerals for digit in syllable) else syllable for syllable in phonetic_result]
 
     # Return the mapped phonetic result as a string
     return " ".join(phonetic_result)
