@@ -1,8 +1,11 @@
 from flask import Flask, request, render_template_string
-from pypinyin import pinyin, lazy_pinyin, Style
+from pypinyin import pinyin, lazy_pinyin, Style, load_single_dict
 from word_mapping import phonetic_dict
 from punctuation_mapping import punctuation_mapping
 from eastern_arabic_numbers import western_to_eastern_numerals
+
+# Custom dictionary because the pinyin library is inaccurate.
+load_single_dict({ord('嗯'): 'èn'})
 
 # Initialize Flask application
 app = Flask(__name__)
@@ -50,7 +53,7 @@ def index():
         chinese_text = request.form["text"]
 
         # Convert the Chinese text to Pinyin with tone markings (Style.TONE)
-        pinyin_result = " ".join([item[0] for item in pinyin(chinese_text, style=Style.TONE)])
+        pinyin_result = " ".join([item[0] for item in pinyin(chinese_text, style=Style.TONE, strict=False)])
 
         # Convert the Chinese text to lazy Pinyin (without tone markings)
         lazy_pinyin_result = lazy_pinyin(chinese_text)

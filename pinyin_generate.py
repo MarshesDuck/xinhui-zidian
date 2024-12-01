@@ -16,7 +16,7 @@ def index():
         chinese_text = request.form["text"]
 
         # Convert the Chinese text to Pinyin with tone markings (Style.TONE)
-        pinyin_result = " ".join([item[0] for item in pinyin(chinese_text, style=Style.TONE)])
+        pinyin_result = " ".join([item[0] for item in pinyin(chinese_text, style=Style.TONE, strict= False)])
 
     # Render the HTML template with the result
     return render_template_string('''
