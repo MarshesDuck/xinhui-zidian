@@ -11,7 +11,7 @@ To Run
 ========
 This python app works as a flask server. Run the file convert_to_persoarabic.py and you'll be able to use the script locally from your browser.
 
-![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 
 FYI, the text used in the screenshot above is Article 1 of the Universal Declaration of Human Rights in Chinese, taken from [Wikipedia](https://en.wikipedia.org/wiki/Xiao%27erjing#Example). I've also included the text here below in case you want to copy and paste it. 
 
