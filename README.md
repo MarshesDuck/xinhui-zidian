@@ -48,3 +48,5 @@ Exciting plans:
 ~~I also intend on hosting my own instance of this webapp on my personal website soon.~~ 
 
 This is currently being hosted here: https://marshesduck.pythonanywhere.com/. 
+
+I want to create a Chinese language version of this tool in the future if possible. (My Chinese is bad so this might not be possible.)
