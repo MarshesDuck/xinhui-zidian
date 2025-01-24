@@ -36,11 +36,19 @@ Add line breaks.
 Quality Control:
 ------------------
 
-~~Presets so you can test the tool out without actually knowing Chinese. I wanted to include Article 1 of the Universal Declaration of Human Rights, the first sura of the Quran (both of these examples are used on the [Wikipedia](https://en.wikipedia.org/wiki/Xiao%27erjing#Example) page on this script) and a line from the [Han Kitab](https://en.wikipedia.org/wiki/Han_Kitab) (汉克塔布, هان کتاب), which is a unique text that blends Confucian and Islamic thought.~~ 
+~~Presets so you can test the tool out without actually knowing Chinese. I wanted to include Article 1 of the Universal Declaration of Human Rights, the first sura of the Quran (both of these examples are used on the [Wikipedia](https://en.wikipedia.org/wiki/Xiao%27erjing#Example) page on this script) and a line from the [Han Kitab](https://en.wikipedia.org/wiki/Han_Kitab) (汉克塔布, هان کتاب), which is a unique text that blends Confucian and Islamic thought.~~ I put in presets for common Chinese words, in addition to a paragraph from the Tianfang Xingli, a famous Chinese Islamic text, and the Chinese word for halal. 
 
-I put in presets for common Chinese words, in addition to a paragraph from the Tianfang Xingli, a famous Chinese Islamic text, and the Chinese word for halal. 
+Accuracy:
 
 I need to check the accuracy of my dictionary for converting Chinese into Perso-Arabic. The writing system was never standardized and it is difficult to find information about this script. The Wikipedia conversion table also contains omisisons (glaringly, it was missing the sound 'en', 恩) and sometimes sources online are in disagreement about the way to represent a sound. 
+
+The ٿ issue: 
+
+This is a unique Xiaoerjing letter to represent the sound 'q' in Mandarin. I am representing this sound using 'ک' in my tool, but I would like to add a toggle between these two representations. 
+
+The shaddah sign:
+
+In Xiaoerjing, the shaddah sign is used to represent a doubling of a Chinese word. It has the same usage as the Japanese iteration mark 々. I would like to create an advanced feature where if you type in the character 々 in the text box, it puts the shaddah sign on the previous word to double it. For example, 天天想吃鱼 (تِیًا‎ تِیًا‎ ثِیَانْ‎ چِ‎ یُوِ‎) can be written as 天々想吃鱼 to create (تِیًّا‎ ثِیَانْ‎ چِ‎ یُوِ‎). 
 
 Exciting plans:
 ----------------
