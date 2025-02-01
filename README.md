@@ -58,6 +58,6 @@ I want to create a Chinese language version of this tool in the future if possib
 What's up with the repo name?
 ---------------------------------
 
-The repo name - xinhui zidian (新回字典) is a pun on the name of the most famous dictionary in China - xinhua zidian (新华字典). The word hua (华) refers to the Han Chinese ethnicity, while hui (回) refers to Chinese Hui Muslims (Note: The Hui Muslims are distinct from the Uyghurs in Xinjiang). The Hui Chinese are a Mandarin-speaking ethnic group in China, centred around the province of Ningxia but prominent throughout Northwest China. They created this writing system to make Mandarin easier to read and this repository is named for them.  
+The repo name - xinhui zidian (新回字典) is a pun on the name of the most famous dictionary in China - xinhua zidian (新华字典). The word hua (华) refers to the Han Chinese ethnicity, while hui (回) refers to Chinese Hui Muslims (Note: The Hui Muslims are distinct from the Uyghurs in Xinjiang). The Hui Chinese are a Mandarin-speaking ethnic group in China, centred around the province of Ningxia but prominent throughout Northwest China. They created this writing system to make Mandarin easier to read.  
 
 <img src="img.png" width="30%" />
