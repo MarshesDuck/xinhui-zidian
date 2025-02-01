@@ -7,10 +7,6 @@ Try it out here! [https://marshesduck.pythonanywhere.com/](https://marshesduck.p
 
 This tool writes Chinese characters in Perso-Arabic script. This style of writing is known as Xiaoerjing (小儿经, ثِیَوْ‎ عَر‎ ݣٍْ‎), and is used by the Hui Chinese Muslims in Northwest China. Islam in China has a deep history and I built this tool to celebrate and promote interest in the unique interchange of cultures and faiths on the Silk Road. 
 
-The repo name - xinhui zidian (新回字典) is a pun on the name of the most famous dictionary in China - xinhua zidian (新华字典). The word hua (华) refers to the Han Chinese ethnicity, while hui (回) refers to Chinese Hui Muslims (Note: The Hui Muslims are distinct from the Uyghurs in Xinjiang). The Hui Chinese are a Mandarin-speaking ethnic group in China, centred around the province of Ningxia but prominent throughout Northwest China. They created this writing system to make Mandarin easier to read and this repository is named for them.  
-
-<img src="img.png" width="30%" />
-
 To Run
 ========
 This python app works as a flask server. Run the file convert_to_persoarabic.py and you'll be able to use the script locally from your browser.
@@ -58,3 +54,10 @@ Exciting plans:
 This is currently being hosted here: https://marshesduck.pythonanywhere.com/. 
 
 I want to create a Chinese language version of this tool in the future if possible. (My Chinese is bad so this might not be possible.)
+
+What's up with the repo name?
+---------------------------------
+
+The repo name - xinhui zidian (新回字典) is a pun on the name of the most famous dictionary in China - xinhua zidian (新华字典). The word hua (华) refers to the Han Chinese ethnicity, while hui (回) refers to Chinese Hui Muslims (Note: The Hui Muslims are distinct from the Uyghurs in Xinjiang). The Hui Chinese are a Mandarin-speaking ethnic group in China, centred around the province of Ningxia but prominent throughout Northwest China. They created this writing system to make Mandarin easier to read and this repository is named for them.  
+
+<img src="img.png" width="30%" />
